@@ -9,7 +9,7 @@ font-weight:bold;
 font-size:20px; /* Tamanho da fonte H1 */	
 margin-bottom: 15px; /* Margem entre Título H1, e o início do Paragrafo. */
 }
-img{margin-top:10px; margin-bottom:10px;}
+img{margin-top:5px; margin-bottom:5px;}
 .legenda{
 font-style:italic; 
 font-size:12px;
@@ -40,14 +40,14 @@ text-align:left;
 #cabecalho{}
 	
 #logotipo{
-padding:0px;
+padding: 10px;
 }
 
 /*Formatação de menu principal Home e contato*/
 #menu{
 background-color: rgb(70, 110, 10);
 color:#FFFFFF;
-padding: 0px;
+padding: 50px;
 }
 
 #menu li{
