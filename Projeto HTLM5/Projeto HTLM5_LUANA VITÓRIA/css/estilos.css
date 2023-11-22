@@ -36,7 +36,7 @@ text-align:left;
 --background-color:green;
 }
 
-/*Formatação do MENU da 2ª Coluna, "Conheça o CPT.*/
+/*Formatação do MENU da 2ª Coluna, "Faça parte da nossa história, entre para a UFPR*/
 #cabecalho{}
 	
 #logotipo{
@@ -45,14 +45,14 @@ padding:20px;
 
 /*Formatação do Menu Principal, Links Internos, Home, Contato etc.*/
 #menu{
-background-color: #9b0000;
+background-color: greenyellow;
 color:#FFFFFF;
 padding: 15px;
 }
 
 #menu li{
 display:inline;
-margin-right: 35px;
+margin-right: 85px;
 }
 
 /*Formatação para dividir o Site, em duas partes.*/
