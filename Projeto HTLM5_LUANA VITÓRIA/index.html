@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<head>
+		<title>Curso de Med. Veterinária</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta http-equiv="content-language" content="pt" />
+		<meta name="description" content="No site você vai encontrar artigos referentes ao 
+		curso de medicina veterinária" />
+		<meta name="keywords" content="JavaScript, CSS3, HTML5, jQuery" />
+		<meta name="author" content="Douglas Marcori" >
+		<script type="text/javascript" src="js/comportamento.js"></script>
+		<link rel="stylesheet" type="text/css" media="screen" href="css/estilos.css" />
+	</head>
+	<body>
+		<div id="geral">
+			<div id="cabecalho">
+				<div id="logotipo">
+					<a href="/clientside/index.php">
+						<img src="img/med.vet.png" title="medicina vet" alt="medicina vet" border="0" />
+					</a>
+				</div>
+				<div id="menu">
+					<ul>
+						<li><a href="/clientside/index.php">Home</a></li>
+						<li><a href="index.php?pag=fale-conosco">Contato</a></li>
+					</ul>
+				</div>
+			</div>
+			<div id="corpo">
+				<? if($pag == ""){?>
+				<div id="destaques">
+					<div id="destaques_top">
+						<div id="destaque_top_esquerda">
+							<h1>Medicina Veterinária</h1>
+							<p>
+							 Medicina Veterinária é a área da saúde dedicada ao estudo, prevenção, diagnóstico e 
+                            tratamento de doenças em animais, incluindo animais de companhia, produção e silvestres, 
+                            com o objetivo de promover a saúde, bem-estar e segurança alimentar, além de contribuir
+                            para o desenvolvimento de pesquisas científicas.
+                             A faculdade de Medicina Veterinária é uma formação de ensino superior dedicada ao estudo
+                            da saúde e bem-estar dos animais. Durante o curso, os estudantes aprendem sobre anatomia,
+                            fisiologia, patologia, diagnóstico, tratamento e prevenção de doenças em animais de companhia,
+                            de produção e silvestres.
+						    </p>
+							
+							<img src="animais.png" title="Todas as vidas importam" alt="Med. Veterinária" />
+							
+							<h1>O que faz um profissional de Med. Veterinária?</h1>
+							<p>Os profissionais formados na faculdade de Medicina Veterinária podem atuar em diversas áreas,
+                             como clínica e cirurgia de pequenos e grandes animais, pesquisa, produção animal, saúde pública,
+                             defesa sanitária animal e inspeção de produtos de origem animal.</p>
+							
+						</div>
+						
+						<div id="destaque_top_direita">
+							<h1>Conheça o curso de Medicina veterinária na faculdade federal do Paraná UFPR, na cidade de Palotina.</h1>
+							<iframe width="560" height="315" src="https://www.youtube.com/embed/GitRqDJoHWw?si=k5wcx_nbkLb3s2CO" title="YouTube video player" 
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+                            </iframe><span class="legenda">Veja um pouco sobre a faculdade e as vantagens de estudar conosco.</span>
+							
+							<div  id="destuqe_top_direita_especial">
+								<div class="destaque_top_direita_dividido">
+									<h1>4 sinais que seu curso é medicina veterinária.</h1>
+									
+									<p>
+										
+										°Ter afinidade com animais de todos os tipos. O principal ponto,
+										 sem sombra de dúvidas, é ter afinidade com os animais.
+										°Saber tomar decisões friamente.
+										°Gostar de assuntos relacionados à biologia e bioquímica.
+										°Rotina de trabalho.
+										</p>
+								</div>
+								<div class="destaque_top_direita_dividido">
+
+									<h1>Conheça as áreas mais promissoras da Medicina Veterinária.</h1>
+
+									<p>
+										°Clínica, Hospitalar e Cirúrgica.
+										°Agroindústria e Pecuária.
+										°Comércio de medicamentos e indústria farmacêutica.
+										°Inspeção sanitária.
+										°Pesquisa técnica e laboratorial.
+								    </p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="destaques_bottom">
+						<div id="destaque_bottom_esquerda">
+							<h1>Manipulando o DOM utilizando o método jQuery <code>.clone()</code></h1>
+							<p>
+							O <code>.clone()</code> é um método que executa uma      cópia
+							profunda do conjunto de elementos HTML determinado,      o que
+							significa que ele copia os elementos indicados e todos      os
+							elementos de seus descendentes e nós de texto.
+						    </p>
+						</div>
+						<div id="destaque_bottom_direita">
+							<img src="img/conheca_os_cursos_cpt.jpg" title="Conheça os CURSOS CPT" alt="Conheça os CURSOS CPT" />
+							<h1>Conheça os CURSOS CPT</h1>
+						</div>
+					</div>
+				</div>
+				<?
+				}else{
+					include($pag.".html");
+				}?>
+			</div>
+			<div id="rodape">
+				<div id="navegacao">
+					<div class="rodape_navegacao_itens">
+						<h1>&lt;html&gt;</h1>
+						<ul>
+							<li><a href="index.php?pag=html-e-o-novo-html">HTML é o novo HTML5</a></li>
+							<li>Tags e elementos</li>
+							<li>Quando usar os elementos</li>
+							<li>HTML "b" e "strong"</li>
+							<li>O HTML em seu dia-a-dia</li>
+						</ul>
+					</div>
+					<div class="rodape_navegacao_itens">
+						<h1>&lt;style&gt;</h1>
+						<ul>
+							<li>Qual a diferença entre pseudo-classes e pseudo-elementos</li>
+						</ul>
+					</div>
+					<div class="rodape_navegacao_itens">
+						<h1>&lt;script&gt;</h1>
+						<ul>
+							<li>Browser Object Model – BOM</li>
+							<li>Como funciona a função eval do JavaScript</li>
+							<li>Manipulando o DOM utilizando o método jQuery .clone()</li>
+							<li>Acessando todos os cabeçalhos de um documento HTML</li>
+							<li>utilizando jQuery</li>
+							<li>Colorindo linhas específicas de uma tabela HTML com a ajuda do jQuery</li>
+							<li>Palavras Reservadas do JavaScript</li>
+						</ul>
+					</div>
+					<div class="rodape_navegacao_itens">
+						<h1>Acessibilidade Usabilidade SEO</h1>
+						<ul>
+							<li>Primeiros Passos no Ambiente INTERNET</li>
+							<li>Estatísticas dos usuários de browser segundo a w3Schools</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div id="direitos_reservados">
+				<hr />
+				© 2021-2023. Todos Os Direitos São Reservados.
+			</div>
+		</div>
+	</body>
+</html>
+
+</html>
