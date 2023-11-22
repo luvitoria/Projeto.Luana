@@ -43,9 +43,9 @@ text-align:left;
 padding:20px;
 }
 
-/*Formatação do Menu Principal, Links Internos, Home, Contato etc.*/
+/*Formatação de menu principal Home e contato*/
 #menu{
-background-color: greenyellow;
+background-color: rgb(70, 110, 10);
 color:#FFFFFF;
 padding: 15px;
 }
@@ -75,7 +75,7 @@ margin-left:10px;
 }
 
 /*Menu responsável pela Formatação, do Títulos
-"Palavras Reservadas",  "Qual a diferença...",
+"4 sinais que seu curso é medicina veterinária.", "Conheça as áreas mais promissoras da Medicina Veterinária.",
 formata em duas colunas.*/
 #destuqe_top_direita_especial{
 margin-top: 10px;
