@@ -47,12 +47,12 @@ padding:20px;
 #menu{
 background-color: rgb(70, 110, 10);
 color:#FFFFFF;
-padding: 45px;
+padding: 0px;
 }
 
 #menu li{
 display:inline;
-margin-right: 85px;
+margin-right: 45px;
 }
 
 /*Formatação para dividir o Site, em duas partes.*/
@@ -95,7 +95,7 @@ clear:both;
 }
 
 #destaque_bottom_esquerda{
-width:470px;
+width:370px;
 background-color:rgb(93, 151, 93);
 padding:40px;
 float:left;
