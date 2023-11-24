@@ -78,7 +78,7 @@ margin-left:10px;
 "4 sinais que seu curso é medicina veterinária.", "Conheça as áreas mais promissoras da Medicina Veterinária.",
 formata em duas colunas.*/
 #destaque_top_direita_especial{
-margin-top: 20px;
+margin-top: 25px;
 }
 .destaque_top_direita_dividido{
 width:177px;
@@ -93,14 +93,7 @@ padding-right:4px;
 color:#FFF;
 clear:both;
 }
-
-#destaque_bottom_esquerda{
-width:370px;
-background-color:rgb(93, 151, 93);
-padding:40px;
-float:left;
-}
-    
+ 
 #destaque_bottom_direita{
 width:170px;
 background-color:#40b746;
