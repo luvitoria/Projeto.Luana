@@ -40,19 +40,19 @@ text-align:left;
 #cabecalho{}
 	
 #logotipo{
-padding: 10px;
+padding: 20px;
 }
 
 /*Formatação de menu principal Home e contato*/
 #menu{
 background-color: rgb(70, 110, 10);
 color:#FFFFFF;
-padding: 50px;
+padding: 15px;
 }
 
 #menu li{
 display:inline;
-margin-right: 0px;
+margin-right: 35px;
 }
 
 /*Formatação para dividir o Site, em duas partes.*/
